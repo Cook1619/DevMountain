@@ -1,0 +1,137 @@
+html, body{
+  height: 1500px;
+  width: 100%;
+  background-color: #008CED;
+
+}
+.parent1{
+  /*border: 5px solid black;*/
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*flex-direction: column;*/
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  /*flex-grow: 5;*/
+  /*background-color: white;*/v
+}
+.item1{
+  height: 100%;
+  margin: 5px;
+  background-color: white;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+.item1{
+  /*flex-grow: 5;*/
+  /*display: flex;*/
+  height: 1500px;
+  position: relative;
+  width: 100%;
+  align-self: center;
+}
+.logo{
+  justify-content: flex-start;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+.firstPic{
+  position: absolute;
+  top: 125px;
+  right: 200px;
+}
+.secondPic{
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+.thirdPic{
+  position: absolute;
+  top: 500px;
+  left: 200px;
+}
+.fourthPic{
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+p{
+  color: black;
+  /*border: 1px black solid;*/
+  width: 200px;
+  height: 100px;
+  line-height: normal;
+  font-size: 10px;
+  top: 770px;
+}
+.p1{
+  position: absolute;
+  /*top: 700px*/
+  left: 880px;
+
+}
+.p2{
+  position: absolute;
+  /*top: 700px;*/
+  left: 280px;
+}
+.p3{
+  position: absolute;
+  /*top: 700px;*/
+  left: 580px;
+}
+.fifthPic{
+    position: absolute;
+    top: 900px;
+    right: 175px;
+}
+nav{
+  color: #008CED;
+  top: auto;
+  left: 50%;
+  /*border: solid black 1px;*/
+  position: absolute;
+  top: 40px;
+  left: 675px;
+  font-size: 20px;
+
+}
+.item2{
+  height: 12%;
+  margin: 5px;
+  background-color: white;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+
+}
+.item3{
+  height: 12%;
+  margin: 5px;
+  background-color: white;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+.item4{
+  height: 12%;
+  margin: 5px;
+  background-color: white;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+.item5{
+  height: 12%;
+  margin: 5px;
+  background-color: white;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
