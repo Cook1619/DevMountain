@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+ <title>Pokemon 4 Life</title>
+</head>
+
+<body ng-controller="mainCtrl">
+{{test}}
+ {{pokeData.name}}
+ <br>
+ Species:{{pokeData.species}}
+ <br>
+ Attack:{{pokeData.attack}}
+ <br>
+ Hp:{{pokeData.hp}}
+ <br>
+ Happiness:{{pokeData.happiness}}
+
+<ng-view></ng-view>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js"></script>
+<script src="JS/app.js"></script>
+<script src="JS/mainCtrl.js"></script>
+<script src="JS/mainService.js"></script>
+<script src="JS/directive/pokeDirective.js"></script>
+</html>
