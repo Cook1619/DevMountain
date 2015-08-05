@@ -1,0 +1,81 @@
+html, body{
+  height: 98%;
+  width: 100%;
+  background-color: grey;
+  /*background-image: url("http://pspfitness.com/wp-content/uploads/2014/01/iStock-football-on-field.jpg");*/
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.headerBox{
+  width: 100%;
+  height: 31%;
+  background-color: white;
+  position: static;
+}
+h1{
+  font-size: 15px;
+  position: static;
+  font-family: 'Audiowide';
+  margin-left: 22%;
+}
+.Logo{
+  position: static;
+  margin-left: 23%;
+}
+
+.templatePhoto {
+  position: absolute;
+  border: 4px solid ;
+  margin-left: 7%;
+  align-items: center;
+  height: 60%;
+  width: 40%;
+}
+.playerPhoto {
+  /*position: absolute;*/
+  border: 4px solid #FF6600
+  ;
+  margin-left: 3%;
+  margin-top: 5%;
+  align-items: center;
+  /*height: 30%;*/
+  width: 20%;
+
+}
+.Stats {
+  margin-left: 55%;
+  position: absolute;
+  font-family: 'Audiowide';
+  font-size: 20px;
+}
+.Box{
+  position: relative;
+  margin-left: 15%;
+  margin-top: 5%;
+  /*border: 3px blue solid;*/
+  height: 70%;
+  width: 70%;
+}
+.Twitter{
+  margin-left: 50%;
+  height: 45px;
+  width: 45px;
+  /*outline: red solid 1px;*/
+}
+.Twitter img{
+  height: 100%;
+  width: auto;
+}
+.Footer{
+  margin-top: 12%;
+  background-color: white;
+  width: 100%;
+  height: 8%;
+}
+.About{
+  margin-top: %;
+  background-color: white;
+  width: 100%;
+  height: 8%;
+}

@@ -1,0 +1,26 @@
+<div class="headerBox">
+  <div class="Logo">
+    <logo-directive></logo-directive>
+    <!-- <h1>Heisman Watch delivers predictive analysis on the annual Heisman Trophy race</h1> -->
+  </div>
+</div>
+<a href="#/player1">
+  <img class="playerPhoto" src="http://www.sportsonearth.com/assets/images/2/2/0/105374220/cuts/Mariota_8yujki9r_ccqwudso.jpg" />
+</a>
+<a href="#/player2">
+  <img class="playerPhoto" src="http://i.ytimg.com/vi/HsnQkFKz2t4/maxresdefault.jpg" />
+</a>
+<a href="#/player3">
+  <img class="playerPhoto" src="http://nfcwesttalk.com/wp-content/uploads/2015/04/amari.jpg" />
+</a>
+<a href="#/player4">
+  <img class="playerPhoto" src="http://www.foxsports.com/content/dam/fsdigital/RSN/South/2014/10/29/PI-CFB-TCU-Trevone-Boykin-102914.jpg" />
+</a>
+<count-down></count-down>
+
+  <div ng-repeat = "data in playerD">
+    {{data.name}}
+    {{data.position}}
+    {{data.totalYards}}
+    {{data.votes}}
+  </div>
