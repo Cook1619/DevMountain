@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'mongo' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'mongo', null ]
+7 verbose cache add spec mongo
+8 silly cache add parsed spec { raw: 'mongo',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'mongo',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed mongo@*
+10 verbose addNamed "*" is a valid semver range for mongo
+11 silly addNameRange { name: 'mongo', range: '*', hasData: false }
+12 silly mapToRegistry name mongo
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/mongo
+16 verbose addNameRange registry:https://registry.npmjs.org/mongo not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/mongo
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 12:03:58 PM
+20 verbose request id 2446affbdb4fa85c
+21 verbose etag "1EQVR9CFY1SGI9GEIPEDXVKNF"
+22 http request GET https://registry.npmjs.org/mongo
+23 http 304 https://registry.npmjs.org/mongo
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 11 Aug 2015 18:03:59 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"1EQVR9CFY1SGI9GEIPEDXVKNF"',
+24 silly get     age: '9',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-dfw1828-DFW',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1439316239.095237,VS0,VE0',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/mongo from cache
+26 verbose get saving mongo to /Users/loganbunker/.npm/registry.npmjs.org/mongo/.cache.json
+27 silly addNameRange number 2 { name: 'mongo', range: '*', hasData: true }
+28 silly addNameRange versions [ 'mongo', [ '0.1.0' ] ]
+29 silly addNamed mongo@0.1.0
+30 verbose addNamed "0.1.0" is a plain semver version for mongo
+31 silly cache afterAdd mongo@0.1.0
+32 verbose afterAdd /Users/loganbunker/.npm/mongo/0.1.0/package/package.json not in flight; writing
+33 verbose afterAdd /Users/loganbunker/.npm/mongo/0.1.0/package/package.json written
+34 silly install resolved [ { name: 'mongo',
+34 silly install resolved     description: 'A thin wrapper for the mongodb library',
+34 silly install resolved     version: '0.1.0',
+34 silly install resolved     author: { name: 'Chris O\'Hara', email: 'cohara87@gmail.com' },
+34 silly install resolved     main: 'index',
+34 silly install resolved     dependencies: { mongodb: '*' },
+34 silly install resolved     engines: { node: '>= 0.4.0' },
+34 silly install resolved     licenses: [ [Object] ],
+34 silly install resolved     _npmUser: { name: 'cohara87', email: 'cohara87@gmail.com' },
+34 silly install resolved     _id: 'mongo@0.1.0',
+34 silly install resolved     devDependencies: {},
+34 silly install resolved     _engineSupported: true,
+34 silly install resolved     _npmVersion: '1.0.106',
+34 silly install resolved     _nodeVersion: 'v0.6.6',
+34 silly install resolved     _defaultsLoaded: true,
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: 'c8af0f8df98d4894b772b37342987c3becf3718c',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/mongo/-/mongo-0.1.0.tgz' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _shasum: 'c8af0f8df98d4894b772b37342987c3becf3718c',
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/mongo/-/mongo-0.1.0.tgz',
+34 silly install resolved     _from: 'mongo@*',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install mongo@0.1.0 into /usr/local/lib
+36 info installOne mongo@0.1.0
+37 verbose installOne of mongo to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/loganbunker/.npm/_locks/mongo-4678412282571b83.lock for /usr/local/lib/node_modules/mongo
+39 silly install write writing mongo 0.1.0 to /usr/local/lib/node_modules/mongo
+40 verbose unbuild lib/node_modules/mongo
+41 info preuninstall mongo@0.1.0
+42 info uninstall mongo@0.1.0
+43 verbose unbuild rmStuff mongo@0.1.0 from /usr/local/lib/node_modules
+44 info postuninstall mongo@0.1.0
+45 silly gentlyRm /usr/local/lib/node_modules/mongo is being purged from base /usr/local
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo
+47 silly vacuum-fs purging /usr/local/lib/node_modules/mongo
+48 verbose unlock done using /Users/loganbunker/.npm/_locks/mongo-4678412282571b83.lock for /usr/local/lib/node_modules/mongo
+49 verbose stack Error: EACCES, rmdir '/usr/local/lib/node_modules/mongo'
+49 verbose stack     at Error (native)
+50 verbose cwd /Users/loganbunker/Documents/DevMountain/Projects/week-6
+51 error Darwin 14.3.0
+52 error argv "node" "/usr/local/bin/npm" "install" "-g" "mongo"
+53 error node v0.12.7
+54 error npm  v2.11.3
+55 error path /usr/local/lib/node_modules/mongo
+56 error code EACCES
+57 error errno -13
+58 error Error: EACCES, rmdir '/usr/local/lib/node_modules/mongo'
+58 error     at Error (native)
+58 error  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/mongo']
+58 error   errno: -13,
+58 error   code: 'EACCES',
+58 error   path: '/usr/local/lib/node_modules/mongo' }
+59 error Please try running this command again as root/Administrator.
+60 verbose exit [ -13, true ]
+61 verbose unbuild lib/node_modules/mongo
+62 info preuninstall mongo@0.1.0
+63 info uninstall mongo@0.1.0
+64 verbose unbuild rmStuff mongo@0.1.0 from /usr/local/lib/node_modules
+65 info postuninstall mongo@0.1.0
+66 silly gentlyRm /usr/local/lib/node_modules/mongo is being purged from base /usr/local
+67 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo
+68 silly vacuum-fs purging /usr/local/lib/node_modules/mongo
+69 error error rolling back Error: EACCES, rmdir '/usr/local/lib/node_modules/mongo'
+69 error error rolling back     at Error (native)
+69 error error rolling back  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/mongo']
+69 error error rolling back   errno: -13,
+69 error error rolling back   code: 'EACCES',
+69 error error rolling back   path: '/usr/local/lib/node_modules/mongo' }
